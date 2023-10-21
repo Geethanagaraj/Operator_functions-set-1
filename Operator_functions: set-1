@@ -1,0 +1,20 @@
+#Python code to demonstrate working of
+#add(), sub(), mul()
+#importing operator modulae
+import operator
+
+#initializing variable
+a=4
+b=5
+
+#using add() to add numbers
+print ("The addition of two numbers : ", end="");
+print (operator.add(a,b))
+
+#using sub() to sub numbers
+print ("The subtraction of two numbers : ", end="');
+print (operator.add(a,b))
+
+#using mul() to multiply numbers
+print ("The product of two numbers : ', end="");
+print (operator.mul(a,b))
